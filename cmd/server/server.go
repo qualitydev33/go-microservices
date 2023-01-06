@@ -19,10 +19,8 @@ import (
 	"github.com/streadway/amqp"
 )
 
-//go:embed template
 var filesTempl embed.FS
 
-//go:embed static
 var filesStatic embed.FS
 
 var (
